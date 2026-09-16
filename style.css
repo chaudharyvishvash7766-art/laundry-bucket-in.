@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #0d233a;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-container h2 span {
+    color: #ffcc00;
+}
+
+.logo-container p {
+    font-size: 12px;
+    color: #ccc;
+}
+
+/* Buttons */
+.whatsapp-btn, .btn {
+    background: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(13, 35, 58, 0.8), rgba(13, 35, 58, 0.8)), url('https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    color: #ddd;
+}
+
+.hero-buttons .primary-btn {
+    background: #25d366;
+    margin-right: 10px;
+}
+
+.hero-buttons .secondary-btn {
+    background: #ffcc00;
+    color: #0d233a;
+}
+
+/* Sections General Styling */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #0d233a;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Services Grid */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.service-card i {
+    font-size: 40px;
+    color: #0d233a;
+    margin-bottom: 15px;
+}
+
+/* Why Us Grid */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.feature-item {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.feature-item i {
+    color: #25d366;
+    margin-right: 8px;
+}
+
+/* How It Works Grid */
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.step-card {
+    background: #0d233a;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+.step-card span {
+    background: #ffcc00;
+    color: #0d233a;
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Testimonials */
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 4px solid #ffcc00;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.testimonial-card h4 {
+    margin-top: 15px;
+    color: #555;
+    font-size: 14px;
+}
+
+/* Contact Section */
+.contact-box {
+    background: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.contact-box p {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background: #091827;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
